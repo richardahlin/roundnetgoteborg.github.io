@@ -7,24 +7,25 @@
 <title>Roundnet Göteborg</title>
 
 <style>
+
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: #F5F7FB;
+  background: #F5F7FB; /* subtle off-white */
 }
 
-.bottom-left-image {
+.corner-image {
   position: fixed;
-  bottom: -17px;
-  left: 20px;   /* margin from left edge */
-  max-width: 300px; /* keeps it mobile-friendly */
+  left: 20px;
+  bottom: -20px;                 /* pushes image slightly below screen */
+  width: clamp(90px, 14vw, 240px); /* responsive scaling */
 }
+
 </style>
 </head>
 
 <body>
 
-<img src="poseidon.png" alt="Logo" class="bottom-left-image">
+<img src="poseidon.png" alt="Roundnet Göteborg" class="corner-image">
 
 </body>
 </html>
